@@ -22,7 +22,7 @@ newArray = []
 end
 
 def printer(array)
-batch_badge_creator(array)
-assign_rooms(array)
+batch_badge_creator(array).each {|val| puts val}
+assign_rooms(array).each {|val| puts val}
   
 end
